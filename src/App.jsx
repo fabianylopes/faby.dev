@@ -1,19 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+//import { useState } from "react";
+import "./App.css";
+import Header from "./components/Header";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>Fabiany Lopes</h1>
-      <p className="read-the-docs">
-        Em construção...
-      </p>
+      <Header />
+      <div className="main">
+        <div className="left-content">
+          <img
+            src="https://avatars.githubusercontent.com/u/53617138?v=4"
+            alt=""
+          />
+        </div>
+        <div className="right-content">
+          <p className="read-the-docs">Em construção...</p>
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
 export default App;

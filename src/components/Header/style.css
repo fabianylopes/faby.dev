@@ -1,0 +1,22 @@
+.navbar {
+  width: 100%;
+  max-width: 100vw;
+  height: 70px;
+  background-color: #9f111b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: fixed;
+  top: 0;
+}
+
+h1 {
+  color: #fff;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
